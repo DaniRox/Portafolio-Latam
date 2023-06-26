@@ -1,0 +1,116 @@
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem;
+}
+
+.presentacion__div-img {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.presentacion__img {
+    height: 135%;
+    width: auto;
+    padding-top: 1.2rem;
+}
+
+.presentnacion__textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion__titulo {
+    color: var(--mountbatten-pink);
+    font-family: var(--playfair);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0.5rem;
+}
+
+.presentacion__texto {
+    color: var(--gunmetal);
+    font-family: var(--dosis);
+    font-size: 1.1rem;
+    margin: 0.5rem;
+}
+
+.redes {
+    height: 3.4rem;
+    margin: 1.2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 2rem 0rem 0.7rem;
+}
+
+.redes__link {
+    color: var(--mountbatten-pink);
+    font-size: 1rem;
+    font-family: var(--dosis);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.redes__icono {
+    color: var(--mountbatten-pink);
+    width: 0.7rem;
+    padding: 0 0.3rem;
+}
+
+@media screen and (min-width: 770px) {
+    .presentacion {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .presentacion__div-img {
+        margin: 1rem 2.3rem;
+    }
+
+    .presentacion__img {
+        padding-top: 0;
+    }
+    .presentacion__textos {
+        width: 68%;
+    }
+
+    .presentacion__titulo {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .presentacion {
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .presentacion__div-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .presentacion__titulo {
+        font-size: 3rem;
+    }
+
+    .presentacion__texto {
+        font-size: 1.4rem;
+    }
+
+    .redes__link {
+        font-size: 1.3rem;
+    }
+
+    .redes__icono {
+        width: 0.9rem;
+    }
+}

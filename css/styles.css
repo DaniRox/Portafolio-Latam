@@ -1,0 +1,47 @@
+:root {
+    --gunmetal: #2D3142;
+    --mountbatten-pink: #827081;
+    --rose-quartz: #AEA3B0;
+    --pale-purple: #E3D0D8;
+    --lavender: #E7E6F7;
+    --paynes-gray: #4F5D75;
+    --silver: #BFC0C0;
+    --white: #ffffff;
+    --red-crayola: #E83151;
+    --playfair: 'Playfair Display', serif;
+    --dosis: 'Dosis', sans-serif;
+  }
+
+.header {
+    width: 100vw;
+    background-color: var(--pale-purple);
+}
+
+.main {
+    width: 100vw;
+    background-color: var(--lavender);
+}
+
+.seccion-skills {
+    background-color: var(--pale-purple);
+}
+
+.seccion-hobbies {
+    background-color: var(--pale-purple);
+}
+
+.seccion-fomacion {
+    background-color: var(--lavender);
+}
+
+.seccion-experiencia {
+    background-color: var(--pale-purple);
+}
+
+.seccion-contacto {
+    background-color: var(--lavender);
+}
+
+.footer {
+    background-color: var(--pale-purple);
+}
