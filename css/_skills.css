@@ -1,0 +1,71 @@
+.seccion-skills {
+    background-color: var(--pale-purple);
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-skills__titulo {
+    color: var(--mountbatten-pink);
+    font-family: var(--playfair);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.seccion-skills__skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill {
+    width: 10rem;
+    height: 7rem;
+    background-color: var(--lavender);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 1rem 0.1rem;
+}
+
+.skill__img {
+    width: 2.2rem;
+    margin: 0.5rem 1rem;
+}
+
+.skill__txt {
+    color: var(--paynes-gray);
+    font-size: 1rem;
+    font-family: var(--dosis);
+    font-weight: 600;
+    margin: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 470px) {
+    .skill {
+        width: 40%;
+        height: 8rem;
+        margin: 1.2rem;
+    }
+
+    .skill__img {
+        width: 2.3rem;
+
+    }
+
+    .skill__txt {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .skill {
+        width: 28%;
+    }
+    .skill__txt {
+        font-size: 1rem;
+
+    }
+}
