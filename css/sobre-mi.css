@@ -30,8 +30,13 @@
     .seccion-sobre-mi {
         width: 68%;
     }
+
     .seccion-sobre-mi__titulo {
         font-size: 1.9rem;
+    }
+
+    .seccion-sobre-mi__texto {
+        font-size: 1.3rem;
     }
 }
 
@@ -39,9 +44,11 @@
     .seccion-sobre-mi__titulo {
         font-size: 3rem;
     }
+
     .seccion-sobre-mi__texto {
         font-size: 1.4rem;
     }
+
     .seccion-sobre-mi__img {
         width: 14rem;
     }

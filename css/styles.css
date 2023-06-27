@@ -7,7 +7,6 @@
     --paynes-gray: #4F5D75;
     --silver: #BFC0C0;
     --white: #ffffff;
-    --red-crayola: #E83151;
     --playfair: 'Playfair Display', serif;
     --dosis: 'Dosis', sans-serif;
   }
@@ -20,28 +19,4 @@
 .main {
     width: 100vw;
     background-color: var(--lavender);
-}
-
-.seccion-skills {
-    background-color: var(--pale-purple);
-}
-
-.seccion-hobbies {
-    background-color: var(--pale-purple);
-}
-
-.seccion-fomacion {
-    background-color: var(--lavender);
-}
-
-.seccion-experiencia {
-    background-color: var(--pale-purple);
-}
-
-.seccion-contacto {
-    background-color: var(--lavender);
-}
-
-.footer {
-    background-color: var(--pale-purple);
 }
