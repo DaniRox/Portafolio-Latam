@@ -46,9 +46,9 @@
 
 .formacion__titulo {
     color: var(--paynes-gray);
-    font-size: 1.3rem;
     font-family: var(--dosis);
-    font-weight: 600;
+    font-size: 1.9rem;
+    font-weight: 700;
     margin: 0.5rem 0;
 }
 
@@ -99,7 +99,7 @@
     }
 
     .seccion-formacion__titulo {
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     
     .seccion-formacion__formaciones {
