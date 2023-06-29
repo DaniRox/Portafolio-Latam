@@ -55,18 +55,31 @@ input, textarea {
 }
 
 input:focus-visible {
+    font-family: var(--dosis);
+    font-size: 1.1rem;
+    font-weight: 400;
     outline: none;
 }
 
 .form-btn {
+    width: 6rem;
+    height: 2.5rem;
     background-color: var(--paynes-gray);
     color: var(--silver);
+    font-family: var(--dosis);
+    font-weight: 600;
+    font-size: 0.9rem;
     margin: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 770px) {
     .seccion-contacto {
         padding: 6%;
+    }
+
+    .seccion-contacto__titulo {
+        font-size: 2.1rem;
     }
 }
 
@@ -74,6 +87,10 @@ input:focus-visible {
     .seccion-contacto {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .seccion-contacto__titulo {
+        font-size: 2.7rem;
     }
 
     .seccion-contacto__div-img {
