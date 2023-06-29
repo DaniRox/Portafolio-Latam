@@ -8,7 +8,7 @@
 .seccion-sobre-mi__titulo {
     color: var(--paynes-gray);
     font-family: var(--playfair);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin: 0.5rem;
 }
@@ -29,10 +29,12 @@
 @media screen and (min-width: 770px) {
     .seccion-sobre-mi {
         width: 68%;
+        padding: 1.8rem;
     }
 
     .seccion-sobre-mi__titulo {
-        font-size: 1.9rem;
+        font-size: 2.1rem;
+        margin: 0 0 0.8rem 0.5rem;
     }
 
     .seccion-sobre-mi__texto {
@@ -41,12 +43,17 @@
 }
 
 @media screen and (min-width: 1100px) {
+    .seccion-sobre-mi {
+        padding: 2.8rem;
+    }
+
     .seccion-sobre-mi__titulo {
-        font-size: 3rem;
+        font-size: 2.8rem;
+        margin: 0 0 1.3rem 0.5rem;
     }
 
     .seccion-sobre-mi__texto {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     .seccion-sobre-mi__img {

@@ -24,16 +24,17 @@
 
 .formacion {
     width: 90%;
-    height: 15rem;
-    margin: 1rem 0.1rem;
+    height: 16rem;
+    margin: 1.5rem 0.1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .formacion__div-img {
     background-color: var(--white);
     width: 100%;
-    height: 17rem;
+    height: 80%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -66,18 +67,21 @@
 
     .formacion {
         width: 90%;
-        height: 18rem;
+        height: 20rem;
     }
 }
 
 @media screen and (min-width: 770px) {
+    .seccion-formacion {
+        padding: 1.8rem;
+    }
+
     .seccion-formacion__titulo {
         font-size: 2.1rem;
     }
 
     .formacion {
         width: 30%;
-        height: 16rem;
     }
 
     .formacion__titulo {
@@ -90,6 +94,10 @@
 }
 
 @media screen and (min-width: 1100px) {
+    .seccion-formacion {
+        padding: 2.8rem;
+    }
+
     .seccion-formacion__titulo {
         font-size: 3rem;
     }
@@ -100,7 +108,7 @@
     
     .formacion {
         width: 28%;
-        height: 16rem;
+        height: 22rem;
         margin: 1rem;
     }
 

@@ -1,7 +1,7 @@
 .presentacion {
     display: flex;
     flex-direction: column;
-    padding: 1.1rem;
+    padding: 1.8rem;
 }
 
 .presentacion__div-img {
@@ -29,15 +29,15 @@
 .presentacion__titulo {
     color: var(--mountbatten-pink);
     font-family: var(--playfair);
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 600;
-    margin: 0.5rem;
+    margin: 0 0 1rem 0.5rem;
 }
 
 .presentacion__texto {
     color: var(--gunmetal);
     font-family: var(--dosis);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 0.5rem;
 }
 
@@ -79,13 +79,18 @@
     .presentacion__img {
         padding-top: 0;
     }
+    
     .presentacion__textos {
-        font-size: 1.3rem;
         width: 68%;
+    }
+
+    .presentacion__texto {
+        font-size: 1.4rem;
     }
 
     .presentacion__titulo {
         font-size: 2.5rem;
+        margin: 0 0 0.8rem 0.5rem;
     }
 }
 
@@ -101,10 +106,11 @@
 
     .presentacion__titulo {
         font-size: 3.6rem;
+        margin: 0 0 1.3rem 0.5rem;
     }
 
     .presentacion__texto {
-        font-size: 1.4rem;
+        font-size: 2.1rem;
     }
 
     .redes__link {
