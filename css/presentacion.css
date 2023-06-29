@@ -1,7 +1,7 @@
 .presentacion {
     display: flex;
     flex-direction: column;
-    padding: 6%;
+    padding: 5%;
 }
 
 .presentacion__div-img {
@@ -12,19 +12,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem;
 }
 
 .presentacion__img {
     height: 135%;
     width: auto;
-    padding-top: 1.2rem;
+    padding: 1rem 0;
 }
 
 .presentacion__textos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 1rem 0;
 }
 
 .presentacion__titulo {
@@ -32,7 +32,7 @@
     font-family: var(--playfair);
     font-size: 2.1rem;
     font-weight: 600;
-    margin: 0 0 0.4rem 0.5rem;
+    padding: 0.7rem 0;
 }
 
 .presentacion__texto {
@@ -40,17 +40,17 @@
     font-family: var(--dosis);
     font-size: 1.2rem;
     font-weight: 400;
-    margin: 0.5rem;
+    padding: 0.7rem 0;
+    margin: 0;
 }
 
 .redes {
-    height: 2.2rem;
-    margin: 1.2rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0rem 2rem 0rem 0.7rem;
+    padding: 0.7rem 0;
+    width: 95%;
 }
 
 .redes__link {
@@ -64,7 +64,6 @@
 .redes__icono {
     color: var(--mountbatten-pink);
     width: 0.7rem;
-    padding: 0 0.3rem;
 }
 
 @media screen and (min-width: 770px) {
@@ -72,7 +71,6 @@
         flex-direction: row-reverse;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 1.8rem;
     }
 
     .presentacion__div-img {
@@ -80,22 +78,23 @@
         height: 210px;
         margin: 1rem;
     }
-
-    .presentacion__img {
-        padding-top: 0;
-    }
     
     .presentacion__textos {
         width: 66%;
     }
 
-    .presentacion__texto {
-        font-size: 1.4rem;
-    }
-
     .presentacion__titulo {
         font-size: 2.5rem;
-        margin: 0 0 0.6rem 0.5rem;
+        padding: 0.8rem 0;
+    }
+
+    .presentacion__texto {
+        font-size: 1.4rem;
+        padding: 0.8rem 0;
+    }
+
+    .redes__link {
+        font-size: 1.4rem;
     }
 }
 
@@ -103,7 +102,6 @@
     .presentacion {
         align-items: center;
         justify-content: flex-end;
-        padding: 3rem;
     }
     .presentacion__div-img {
         width: 240px;
@@ -112,16 +110,18 @@
 
     .presentacion__titulo {
         font-size: 3rem;
-        margin: 0 0 0.8rem 0.5rem;
+        padding: 0.9rem 0;
     }
 
     .presentacion__texto {
-        font-size: 2.1rem;
+        font-size: 1.7rem;
         font-weight: 400;
+        padding: 0.9rem 0;
     }
 
     .redes__link {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
+        padding: 0.9rem 0;
     }
 
     .redes__icono {
