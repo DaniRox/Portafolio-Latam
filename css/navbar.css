@@ -7,26 +7,20 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 1rem 5%;
 }
 
 .navbar__nav-mail, .navbar__nav-nombre {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--gunmetal);
     text-decoration: none;
-    padding: 0 0.7rem;
+    margin: 0;
 }
 
 .navbar__nav-menu {
     display: none;
     width: 60%;
-}
-
-.navbar__nav-opcion {
-    color: var(--gunmetal);
-    text-decoration: none;
-    font-weight: 400;
-    padding: 0 0.7rem;
 }
 
 
@@ -48,6 +42,11 @@
 
     .navbar__nav-mail, .navbar__nav-nombre {
         font-size: 1.5rem;
+        padding: 0 0.7rem;
+    }
+
+    .navbar__nav-nombre {
+        width: 16rem;
     }
 
     .navbar__nav-menu {
@@ -55,4 +54,14 @@
         flex-direction: row;
         justify-content: flex-end;
     }
+
+
+    .navbar__nav-opcion {
+        color: var(--gunmetal);
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 400;
+        padding: 0 0.7rem;
+    }
+
 }
