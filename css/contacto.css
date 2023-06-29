@@ -1,0 +1,73 @@
+.seccion-contacto {
+    background-color: var(--lavender);
+    padding: 1.1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-contacto__titulo {
+    color: var(--paynes-gray);
+    font-family: var(--playfair);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+
+.seccion-contacto__txt {
+    color: var(--gunmetal);
+    font-family: var(--dosis);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+.form-contacto {
+    width: 100%;
+}
+
+.form-contacto__form-div {
+    height: auto;
+    background-color: var(--white);
+    margin: 1rem 0.5rem;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label, p {
+    color: var(--paynes-gray);
+    font-size: 0.9rem;
+    font-family: var(--dosis);
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    color: var(--gunmetal);
+    border-style: none;
+    font-size: 1.1rem;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.form-btn {
+    background-color: var(--paynes-gray);
+    color: var(--silver);
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 770px) {
+    .seccion-contacto {
+        padding: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .seccion-contacto {
+        padding: 2.8rem;
+    }
+}

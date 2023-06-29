@@ -17,6 +17,7 @@
     color: var(--gunmetal);
     font-family: var(--dosis);
     font-size: 1.1rem;
+    font-weight: 400;
     margin: 0.5rem;
 
 }
@@ -48,7 +49,7 @@
     }
 
     .seccion-sobre-mi__titulo {
-        font-size: 2.6rem;
+        font-size: 2.7rem;
         margin: 0 0 0.9rem 0.5rem;
     }
 

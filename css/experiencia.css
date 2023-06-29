@@ -44,7 +44,7 @@
 
 .proyecto__titulo {
     color: var(--mountbatten-pink);
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     font-family: var(--dosis);
     font-weight: 700;
     margin: 0.5rem 0;
@@ -54,6 +54,7 @@
     color: var(--mountbatten-pink);
     font-family: var(--dosis);
     font-size: 1.1rem;
+    font-weight: 400;
     margin: 0.5rem 0;
 }
 
@@ -63,12 +64,12 @@
 }
 
 .proyecto__btn {
-    width: 7rem;
-    height: 3rem;
+    width: 6rem;
+    height: 2.5rem;
     background-color: var(--lavender);
     border-color: 5px solid var(--mountbatten-pink);
-    margin: 0.5rem;
-    border-radius: 5px;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
 }
 
 .proyecto__btn:hover {
@@ -125,7 +126,7 @@
 
     .proyecto__info {
         margin: 1.5rem;
-        width: 15rem;
+        width: 16rem;
     }
 
     .proyecto__titulo {
@@ -136,13 +137,13 @@
         font-size: 1.3rem;
     }
     
-    .proyecto_btn {
-        width: 9rem;
-        height: 4rem;
+    .proyecto__btn {
+        width: 10rem;
+        height: 3rem;
     }
     
     .proyecto__link {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -153,7 +154,7 @@
     }
 
     .seccion-experiencia__titulo {
-        font-size: 2.6rem;
+        font-size: 2.7rem;
     }
 
     .seccion-experiencia__proyectos {
@@ -173,7 +174,7 @@
     }
 
     .proyecto__txt {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     
     .proyecto_btn {
@@ -182,6 +183,6 @@
     }
     
     .proyecto__link {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
