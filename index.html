@@ -32,7 +32,7 @@
                 <a href="#formacion" class="navbar__nav-opcion">Formación</a>
                 <a href="#experiencia" class="navbar__nav-opcion">Proyectos</a>
             </div>
-            <a href="mailto:" target="_blank" class="navbar__nav-mail">daniroxescobar@gmail.com</a>
+            <a href="#contacto" class="navbar__nav-mail">daniroxescobar@gmail.com</a>
         </nav>
 
         <div class="presentacion">
@@ -248,26 +248,26 @@
                 <form class="form-contacto">
     
                     <div class="form-contacto__form-div">
-                        <label>Nombre</label>
-                        <input>
+                        <label for="nombre">Nombre</label>
+                        <input name="nombre" id="nombre" type="text" autocomplete="on" required>
                     </div>
     
                     <div class="form-contacto__form-div">
-                        <label>E-mail</label>
-                        <input>
+                        <label for="email">E-mail</label>
+                        <input name="email" id="email" type="email" autocomplete="on" required>
                     </div>
     
                     <div class="form-contacto__form-div">
-                        <label>Asuntoo</label>
-                        <input>
+                        <label for="asunto">Asunto</label>
+                        <input name="asunto" id="asunto" type="text">
                     </div>
     
                     <div class="form-contacto__form-div">
                         <p>Mensaje</p>
-                        <textarea></textarea>
+                        <textarea name="mensaje" id="textarea" required></textarea>
                     </div>
 
-                    <input type="button" class="form-btn" value="Enviar mensaje">
+                    <input type="submit" class="form-btn" value="Enviar mensaje">
     
                 </form>
             </div>
