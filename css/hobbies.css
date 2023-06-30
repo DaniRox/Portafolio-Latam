@@ -1,6 +1,6 @@
 .seccion-hobbies {
     background-color: var(--pale-purple);
-    padding: 1.1rem;
+    padding: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -8,28 +8,29 @@
 .seccion-hobbies__titulo {
     color: var(--mountbatten-pink);
     font-family: var(--playfair);
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    margin: 0.5rem;
+    padding: 0.7rem 0;
     text-align: center;
 }
 
 .seccion-hobbies__hobbies {
+    padding: 0.7rem 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .hobbie {
-    width: 10rem;
-    height: 7rem;
+    width: 46%;
+    height: 8rem;
     background-color: var(--lavender);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: 1rem 0.1rem;
+    margin: 1.5rem 0.2rem;
 }
 
 .hobbie__img {
@@ -45,33 +46,18 @@
     margin: 0.5rem 1rem;
 }
 
-@media screen and (min-width: 470px) {
-    .seccion-hobbies__titulo {
-        font-size: 1.9rem;
-    }
-    
-    .hobbie {
-        width: 40%;
-        height: 8rem;
-        margin: 1.2rem;
-    }
 
-    .hobbie__img {
-        height: 2.3rem;
-    }
-}
+/*estilos para tablet*/
 
 @media screen and (min-width: 770px) {
-    .seccion-hobbies {
-        padding: 1.8rem;
-    }
-
     .seccion-hobbies__titulo {
         font-size: 2.1rem;
     }
     
     .hobbie {
-        width: 28%;
+        width: 30%;
+        height: 10rem;
+        margin: 1.5rem 3%;
     }
 
     .hobbie__img {
@@ -83,9 +69,12 @@
     }
 }
 
+
+/*estilos para escritorio*/
+
 @media screen and (min-width: 1100px) {
-    .seccion-hobbies {
-        padding: 2.8rem;
+    .seccion-hobbies__hobbies{
+        justify-content: flex-start;
     }
 
     .seccion-hobbies__titulo {
@@ -93,9 +82,8 @@
     }
     
     .hobbie {
-        width: 9.5rem;
-        height: 9.5rem;
-        margin: 0.8rem;
+        width: 11rem;
+        height: 12rem;
     }
 
     .hobbie__img {

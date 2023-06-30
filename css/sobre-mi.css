@@ -1,6 +1,6 @@
 .seccion-sobre-mi {
     background-color: var(--lavender);
-    padding: 1.1rem;
+    padding: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -10,7 +10,7 @@
     font-family: var(--playfair);
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 0.5rem;
+    padding: 0.7rem 0;
 }
 
 .seccion-sobre-mi__texto {
@@ -18,43 +18,44 @@
     font-family: var(--dosis);
     font-size: 1.1rem;
     font-weight: 400;
-    margin: 0.5rem;
-
+    padding: 0.3rem 0;
 }
 
 .seccion-sobre-mi__img {
     width: 10rem;
-    padding: 1rem 0.5rem;
+    padding: 0.7rem 0;
 }
+
+
+/*estilos para tablet*/
 
 @media screen and (min-width: 770px) {
     .seccion-sobre-mi {
         width: 68%;
-        padding: 1.8rem;
     }
 
     .seccion-sobre-mi__titulo {
         font-size: 2.1rem;
-        margin: 0 0 0.5rem 0.5rem;
+        padding: 0.8rem 0;
     }
 
     .seccion-sobre-mi__texto {
         font-size: 1.3rem;
+        padding: 0.4rem 0;
     }
 }
 
-@media screen and (min-width: 1100px) {
-    .seccion-sobre-mi {
-        padding: 2.8rem;
-    }
 
+/*estilos para escritorio*/
+
+@media screen and (min-width: 1100px) {
     .seccion-sobre-mi__titulo {
         font-size: 2.7rem;
-        margin: 0 0 0.9rem 0.5rem;
     }
 
     .seccion-sobre-mi__texto {
         font-size: 2rem;
+        padding: 0.5rem 0;
     }
 
     .seccion-sobre-mi__img {
