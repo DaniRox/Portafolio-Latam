@@ -18,14 +18,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
 .formacion {
-    width: 90%;
-    height: 18rem;
-    margin: 1.5rem 0.1rem;
+    width: 100%;
+    height: 20rem;
+    margin: 1.6rem 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,7 +47,7 @@
 .formacion__titulo {
     color: var(--paynes-gray);
     font-family: var(--dosis);
-    font-size: 2.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     margin: 0.5rem 0;
 }
@@ -65,11 +65,12 @@
 
 @media screen and (min-width: 770px) {
     .seccion-formacion__titulo {
-        font-size: 2.7rem;
+        font-size: 2.1rem;
     }
 
     .formacion {
         width: 30%;
+        height: 21rem;
     }
 
     .formacion__titulo {
@@ -86,19 +87,13 @@
 
 @media screen and (min-width: 1100px) {
     .seccion-formacion__titulo {
-        font-size: 2.7rem;
-    }
-    
-    .seccion-formacion__formaciones {
-        justify-content: center;
+        font-size: 2.6rem;
     }
     
     .formacion {
-        width: 28%;
+        width: 30%;
         height: 22rem;
-        margin: 1rem;
     }
-
 
     .formacion__titulo {
         font-size: 1.6rem;

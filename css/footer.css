@@ -1,4 +1,34 @@
 .footer {
-    height: 5rem;
+    height: 8rem;
     background-color: var(--pale-purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__txt, .footer__año {
+    color: var(--mountbatten-pink);
+    font-family: var(--playfair);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 3px;
+}
+
+
+/*estilos para tablet*/
+
+@media screen and (min-width: 770px) {
+    .footer__txt, .footer__año {
+        font-size: 1.3rem;
+    }
+}
+
+
+/*estilos para escritorio*/
+
+@media screen and (min-width: 1100px) {
+    .footer__txt, .footer__año {
+        font-size: 1.4rem;
+    }
 }

@@ -1,6 +1,6 @@
 .seccion-experiencia {
     background-color: var(--pale-purple);
-    padding: 1.1rem;
+    padding: 5%;
     display: flex;
     flex-direction: column;
 }
@@ -8,9 +8,9 @@
 .seccion-experiencia__titulo {
     color: var(--mountbatten-pink);
     font-family: var(--playfair);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    margin: 0.5rem;
+    padding: 0.7rem 0;
     text-align: center;
 }
 
@@ -18,21 +18,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .proyecto {
-    width: 90%;
-    height: 20rem;
-    margin: 1rem 0.1rem;
+    width: 100%;
+    height: 22rem;
+    margin: 1.6rem 0.2rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .proyecto__div-img {
     background-color: var(--white);
     width: 100%;
-    height: 70%;
+    height: 75%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -88,28 +89,16 @@
     color: var(--lavender);
 }
 
-@media screen and (min-width: 470px) {
-    .seccion-experiencia__titulo {
-        font-size: 1.9rem;
-    }
 
-    .proyecto {
-        height: 25rem;
-    }
-}
+/*estilos para tablet*/
 
 @media screen and (min-width: 770px) {
-    .seccion-experiencia {
-        padding: 1.8rem;
-    }
-
     .seccion-experiencia__titulo {
         font-size: 2.1rem;
     }
 
     .proyecto {
-        height: 18rem;
-        margin: 3rem;
+        height: 20rem;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
@@ -148,21 +137,15 @@
 }
 
 
+/*estilos para escritorio*/
+
 @media screen and (min-width: 1100px) {
-    .seccion-experiencia {
-        padding: 2.8rem;
-    }
-
     .seccion-experiencia__titulo {
-        font-size: 2.7rem;
-    }
-
-    .seccion-experiencia__proyectos {
-        justify-content: center;
+        font-size: 2.6rem;
     }
 
     .proyecto {
-        height: 21rem;
+        height: 22rem;
     }
 
     .proyecto__info {
