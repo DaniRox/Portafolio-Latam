@@ -160,9 +160,8 @@
         font-size: 1.4rem;
     }
     
-    .proyecto_btn {
+    .proyecto__btn {
         width: 10rem;
-        height: 4.5rem;
     }
     
     .proyecto__link {

@@ -46,17 +46,17 @@ label, p {
     font-family: var(--dosis);
     font-weight: 400;
     text-decoration: none;
-    margin: 0.6rem;
+    margin: 0.1rem;
 }
 
 input, textarea {
     color: var(--gunmetal);
     border-style: none;
     font-size: 1.1rem;
-    margin: 0.6rem;
+    margin: 0.1rem;
 }
 
-input:focus-visible {
+input:focus-visible, textarea:focus-visible {
     font-family: var(--dosis);
     font-size: 1.1rem;
     font-weight: 400;
@@ -88,7 +88,7 @@ input:focus-visible {
     }
 
     .form-btn {
-        width: 13rem;
+        width: 10rem;
         height: 3rem;
         font-size: 1.1rem;
     }
@@ -110,14 +110,14 @@ input:focus-visible {
 
     .seccion-contacto__div-img {
         width: 40%;
-        height: 48rem;
+        height: 39rem;
         display: flex;
         justify-content: center;
         overflow: hidden;
     }
 
     .seccion-contacto__img {
-        height: 48rem;
+        height: 39rem;
         padding-right: 2rem;
     }
 
@@ -133,8 +133,7 @@ input:focus-visible {
     }
 
     .form-btn {
-        width: 15rem;
-        height: 4.5rem;
+        width: 12rem;
         font-size: 1.2rem;
     }
 }
