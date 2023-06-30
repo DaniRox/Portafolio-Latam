@@ -13,7 +13,7 @@
 .navbar__nav-mail, .navbar__nav-nombre {
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--gunmetal);
+    color: var(--paynes-gray);
     text-decoration: none;
     margin: 0;
 }

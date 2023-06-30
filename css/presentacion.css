@@ -64,6 +64,7 @@
 .redes__icono {
     color: var(--mountbatten-pink);
     width: 0.7rem;
+    margin-left: 0.4rem;
 }
 
 
@@ -99,6 +100,10 @@
 
     .redes__link {
         font-size: 1.4rem;
+    }
+
+    .redes__icono {
+        width: 0.8rem;
     }
 }
 
