@@ -245,7 +245,7 @@
 
                 <p class="seccion-contacto__txt">¿Quieres contactarme?<br>Completa el siguiente formuario y me pondré en contacto con usted lo antes posible.</p>
     
-                <form class="form-contacto">
+                <form class="form-contacto" action="" method="POST">
     
                     <div class="form-contacto__form-div">
                         <label for="nombre">Nombre</label>
@@ -267,9 +267,9 @@
                         <textarea name="mensaje" id="mensaje" required  maxlength="30"></textarea>
                     </div>
 
-                    <input type="submit" class="form-btn" id="form-btn" value="Enviar mensaje">
+                    <input type="submit" class="form-btn" id="form-btn" value="Enviar mensaje" onclick="location.href='./formulario-enviado.html'">
     
-                    <input type="hidden" name="_next" value="https://danirox.github.io/Portfolio-DaniRox/formulario-enviado.htmlhttps://danirox.github.io/Portafolio-Latam/formulario-enviado.html">
+                    <input type="hidden" name="_next" value="https://danirox.github.io/Portfolio-Latam/formulario-enviado.html">
                     <input type="hidden" name="_captcha" value="false">
 
                 </form>
