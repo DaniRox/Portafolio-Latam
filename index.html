@@ -40,7 +40,7 @@
             <div class="presentacion__div-img"><img src="./assets/img-perfil.jpg" class="presentacion__img"></div>
             <div class="presentacion__textos">
                 <h1 class="presentacion__titulo">Hola, mi nombre es Daniela y construyo paginas web</h1>
-                <p class="presentacion__texto">Estoy formada en desarrollo web fron-end, perfeccionandome y ampliando mi formación complementando con diseño UX/UI. Actualemente participo del proyecto Oracle ONE en Alura Latam</p>
+                <p class="presentacion__texto">Soy de Argentina y tengo 36 años. Estoy formada en desarrollo web fron-end, perfeccionandome y ampliando mi formación complementando con diseño UX/UI. Actualemente participo del proyecto Oracle ONE en Alura Latam</p>
                 <div class="redes">
                     <a href=""  target="_blank" class="redes__link">Github<img src="./assets/flechita.svg" class="redes__icono"></a>
                     <a href=""  target="_blank" class="redes__link">LinkedIn<img src="./assets/flechita.svg" class="redes__icono"></a>
@@ -249,7 +249,7 @@
     
                     <div class="form-contacto__form-div">
                         <label for="nombre">Nombre</label>
-                        <input name="nombre" id="nombre" type="text" autocomplete="on" required>
+                        <input name="nombre" id="nombre" type="text" autocomplete="on" required maxlength="50">
                     </div>
     
                     <div class="form-contacto__form-div">
@@ -259,15 +259,15 @@
     
                     <div class="form-contacto__form-div">
                         <label for="asunto">Asunto</label>
-                        <input name="asunto" id="asunto" type="text">
+                        <input name="asunto" id="asunto" type="text" required maxlength="50">
                     </div>
     
                     <div class="form-contacto__form-div">
-                        <p>Mensaje</p>
-                        <textarea name="mensaje" id="textarea" required></textarea>
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" required  maxlength="30"></textarea>
                     </div>
 
-                    <input type="submit" class="form-btn" value="Enviar mensaje">
+                    <input type="submit" class="form-btn" id="form-btn" value="Enviar mensaje" onclick="location.href='./formulario-enviado.html'">
     
                 </form>
             </div>
@@ -282,6 +282,8 @@
         <p class="footer__año">2022</p>
 
     </footer>
+
+    <script src="./btn-form.js"></script>
 
 </body>
 </html>
