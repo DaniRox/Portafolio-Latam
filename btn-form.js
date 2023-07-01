@@ -10,7 +10,5 @@ btnForm.addEventListener("click", desabilitarBtn())
 function desabilitarBtn() {
     if(formNombre.value === "" && formEmail.value === "" && formAsunto.value === "" && formMensaje.value === "") {
         btnForm.style = "disabled";
-    } else {
-        btnForm.onclick = "location.href='./formulario-enviado.html'";
     }
 }
